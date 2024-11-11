@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpoly_docs=self.webpackChunkpoly_docs||[]).push([[903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/poly-docs/fr/blog","blogTitle":"Blog","authorsListPath":"/poly-docs/fr/blog/authors"}')}}]);
