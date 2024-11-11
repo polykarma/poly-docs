@@ -1,6 +1,6 @@
-Here's an expanded `README.md` with a comprehensive introduction, setup guide, and contribution steps. This version includes a Table of Contents for easy navigation, instructions to help new users get started, and step-by-step guidance for contributing.
-
 # PolyDocs
+
+https://polykarma.github.io/poly-docs/
 
 PolyDocs is a collaborative, community-driven resource for students and educators at Polytechnique Montreal. Our goal is to create a centralized repository of knowledge, including course notes, tutorials, study guides, and more, that is accessible and editable by anyone within the Polytechnique community. Whether you're looking to learn, review, or contribute, PolyDocs has something for you.
 
