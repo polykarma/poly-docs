@@ -6,16 +6,14 @@ module.exports = {
       label: 'INF2010 - Data Structures and Algorithms',
       items: [
         'inf2010/index',
-        'inf2010/algorithms',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'INF2610 - Operating Systems and Kernel Architecture',
-      items: [
-        'inf2610/index',
-        'inf2610/c-programming',
-        'inf2610/linux-kernel',
+        'inf2010/interface',
+        'inf2010/list',
+        'inf2010/arraylist',
+        'inf2010/linkedlist',
+        'inf2010/iterator',
+        'inf2010/stacks',
+        'inf2010/queues',
+        'inf2010/hashtable'
       ],
     },
   ],
