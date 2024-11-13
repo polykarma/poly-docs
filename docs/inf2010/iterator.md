@@ -6,13 +6,13 @@ title: Iterator
 
 ## Goal
 
-*To provide a way to access the elements of a Collection object sequentially*
+*To provide a way to access the elements of a Collection sequentially*
 
 ## Description
 
-The iterator design pattern allows us to access the elements of a collection object sequentially without exposing its underlying representation.
+The iterator design pattern allows us to access the elements of a collection object sequentially without exposing its underlying representation. We can then implement a custom traversal technique for each collection.
 
-For example, we can use an iterator to traverse a list with a for-loop as well as a tree structure.
+For example, we can use an iterator to traverse a list with a for-each loop as well as a tree structure.
 
 ## Interface
 
@@ -48,15 +48,8 @@ for (String s : list) {
 }
 ```
 
-## Simplifying the complexity of operations
 
-We can notice that the iterator keeps track of the current element, so if we were to remove an element, so once the iterator is pointing to the element we want to remove, we can just call `remove()` to remove the element from the collection. This simplifies the complexity of removing elements from a collection without having to retraverse the collection to find the element to remove.
+## LinkedList with vs without Iterator
+Without an implementation of an iterator, a linkedlist must be traversed node-by-node with a traversal in order to find the right index, then to remove the node must perform a second pass in order to find the node again to remove. This is quadratic time.
 
-
-## Complexity of Operations
-
-| Operation | Complexity | Description |
-|-----------|------------|-------------|
-| `hasNext()` | O(1) | Returns true if there are more elements in the collection |
-| `next()` | O(1) | Returns the next element in the collection |
-| `remove()` | O(1) | Removes the last element returned by the iterator from the collection |
+We can optimize this by keeping track of the node during the traversal itself with the iterator. In this case we stay in linear time.
