@@ -6,7 +6,7 @@ title: Queues
 
 ## Goal
 
-*Explore how a queue works*
+*What if we need a List with a very specific access policy?*
 
 ## Mechanics
 

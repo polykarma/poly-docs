@@ -6,7 +6,7 @@ title: Stacks
 
 ## Goal
 
-*Explore how a stack works*
+*What if we need a List with a very specific access policy?*
 
 ## Mechanics
 

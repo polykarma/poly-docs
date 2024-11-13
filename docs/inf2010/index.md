@@ -10,8 +10,7 @@ This course covers fundamental data structures and algorithms. Explore topics li
 
 - [Interface](./interface.md)
 - [List](./list.md)
-- [ArrayList](./arraylist.md)
-- [LinkedList](./linkedlist.md)
 - [Iterator](./iterator.md)
-- [Stacks](./stacks.md)
-- [Queues](./queues.md)
+- [Hashtable](./hashtable.md)
+- [Sorting Algorithms](./sorting.md)
+- [Time Complexity Analysis](./complexity.md)
