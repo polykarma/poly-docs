@@ -1,3 +1,6 @@
+import rehypeKatex from "rehype-katex";
+import remarkMath from "remark-math";
+
 const config = {
   title: 'PolyDocs',
   tagline: 'Documentation des cours de PolyMtl',
@@ -21,6 +24,8 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/polykarma/poly-docs/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         theme: {
@@ -29,7 +34,15 @@ const config = {
       }),
     ],
   ],
-
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig: {
     navbar: {
       title: 'PolyDocs',
@@ -44,8 +57,10 @@ const config = {
       ],
     },
   },
-
-
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;
