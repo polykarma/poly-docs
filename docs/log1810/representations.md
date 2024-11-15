@@ -13,7 +13,7 @@ $$
 ## Graph representation
 As a visual diagram, this is very common in the CS and Engineering field. This allows us to study graph theory from a mathematical as well as a CS/Eng perspective.
 
-If we assume a binary relation $R$ on a set $S$ as a set of 2-tuples like $(a_i, b_i)$, we can represent each tuple as a directed edge $a_i \rightarrow b_i$, wherein $a_i$ and $b_i$ are nodes in the graph.
+If we assume a binary relation $R$ on a set $S$ as a set of 2-tuples like $(a_i, b_i)$, we can represent each tuple as a directed edge $a_i \longrightarrow b_i$, wherein $a_i$ and $b_i$ are nodes in the graph.
 
 For example the relation $R$ can be represented graphically as:
 ```mermaid
