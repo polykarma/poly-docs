@@ -20,6 +20,8 @@ const config = {
       'classic',
       ({
         docs: {
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           routeBasePath: '/docs',
           sidebarPath: './sidebars.js',
           editUrl:
