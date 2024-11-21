@@ -134,6 +134,15 @@ module.exports = {
           label: 'Graphs',
           items: ['contribute'],
         },
+        {
+          type: 'category',
+          label: 'Trees',
+          items: [
+            'log1810/trees',
+            'log1810/traversals',
+            'log1810/mst',
+          ],
+        }
       ]
     }
   ],
