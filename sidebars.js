@@ -139,7 +139,7 @@ module.exports = {
           label: 'Trees',
           items: [
             'log1810/trees',
-            'log1810/traversals',
+            'log1810/traversal',
             'log1810/mst',
           ],
         }
