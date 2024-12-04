@@ -1,3 +1,5 @@
+const { type } = require("@generated/site-storage");
+
 module.exports = {
   sidebar: [
     'intro',
@@ -143,6 +145,18 @@ module.exports = {
             'log1810/mst',
           ],
         }
+      ]
+    },
+    {
+      type: 'category',
+      label: 'LOG2440 - Web Development',
+      items: [
+        'log2440/index',
+        {
+          type: 'category',
+          label: 'Async - Ajax',
+          items: ['contribute'],
+        },
       ]
     }
   ],
